@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image" href="favicon.ico">
+    <title>Pokémon Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card-image">
+            <img src="/International_Pokémon_logo.svg" alt="Pokemon Logo">
+        </div>
+        <div class="search-pokemon">
+            <input type="text" name="" id="pokemonName" placeholder="Enter Pokemon Name" autocomplete="off">
+            <button class="js-btn">Fetch Pokemon</button>
+        </div>
+        <div class="image">
+            <img src="" alt="Pokemon Sprite" id="pokemonSprite">
+            <div class="details" style="display: none;"></div>
+            <p id="errorMessage" style="display: none;">Wrong Pokémon Name</p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
